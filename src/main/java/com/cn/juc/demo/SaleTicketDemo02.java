@@ -37,7 +37,7 @@ class Ticket2{
     Lock lock = new ReentrantLock();    //默认非公平锁，随机，可以插队，所以公平 ------
 
     //卖票的方式
-    public synchronized void sale(){
+    public void sale(){
         lock.lock();
         try {
             if(number > 0){

@@ -1,4 +1,4 @@
-package com.cn.juc.pc;
+package com.cn.juc.pc_jmm_volatile;
 
 import java.util.HashMap;
 import java.util.Map;
